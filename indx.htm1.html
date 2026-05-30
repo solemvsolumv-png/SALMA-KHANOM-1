@@ -1,0 +1,260 @@
+<!DOCTYPE html><html lang="en" style=""><head><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Salma Khanom | Authentic South Asian Feasts</title>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- EB Garamond Font -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:wght@400;500;700&amp;family=Merriweather:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<script>tailwind.config = {theme: {extend: {colors: {brand: {olive: "#80804d", cream: "#efe8d9", dark: "#221f1f"}, "on-tertiary-container": "#fffbff", "on-primary-fixed-variant": "#49491c", surface: "#fff8f5", "secondary-container": "#efe1cb", "on-primary-fixed": "#1d1d00", "inverse-surface": "#34302c", "surface-tint": "#616131", "surface-variant": "#e9e1dc", "surface-container-highest": "#e9e1dc", "on-secondary-fixed-variant": "#4e4636", "surface-container-low": "#fbf2ed", "on-surface": "#1e1b18", secondary: "#675d4c", "on-surface-variant": "#48473c", "tertiary-container": "#826c91", "primary-container": "#777745", "error-container": "#ffdad6", background: "#fff8f5", "on-primary-container": "#fffbff", "tertiary-fixed-dim": "#d7bde6", "primary-fixed-dim": "#caca90", outline: "#79776a", "outline-variant": "#c9c7b8", "on-secondary": "#ffffff", "on-secondary-fixed": "#211b0e", "primary-fixed": "#e7e6aa", "on-secondary-container": "#6d6352", "surface-container-high": "#efe6e2", tertiary: "#685477", "surface-container": "#f5ece7", "on-primary": "#ffffff", "on-tertiary-fixed": "#251433", "on-tertiary": "#ffffff", "inverse-on-surface": "#f8efea", "inverse-primary": "#caca90", "on-error": "#ffffff", "secondary-fixed": "#efe1cb", "tertiary-fixed": "#f2daff", error: "#ba1a1a", "surface-container-lowest": "#ffffff", "surface-bright": "#fff8f5", primary: "#5e5e2f", "on-background": "#1e1b18", "secondary-fixed-dim": "#d2c5b0", "on-tertiary-fixed-variant": "#523f61", "on-error-container": "#93000a", "surface-dim": "#e1d8d4"}, fontFamily: {serif: ["\"EB Garamond\"", "serif"], headline: ["Climate Crisis"], display: ["Climate Crisis"], body: ["Climate Crisis"], label: ["Merriweather"]}, fontSize: {}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}}}};</script>
+<style data-purpose="custom-typography">
+    body {
+      font-family: 'EB Garamond', serif;
+      background-color: #efe8d9;
+      color: #221f1f;
+    }
+    .arabic-text {
+      direction: rtl;
+      font-size: 1.1rem;
+      color: #80804d;
+    }
+  </style>
+<style data-purpose="layout-components">
+    /* Subtle texture simulation */
+    .bg-texture {
+      background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+    }
+    
+    .sticky-header {
+      backdrop-filter: blur(8px);
+      background-color: rgba(239, 232, 217, 0.9);
+    }
+
+    .card-shadow {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type='range'] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 4px;
+      background: #221f1f;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      background: #80804d;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    /* Floating Animation */
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .animate-float {
+      animation: float 5s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .animate-float {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body class="bg-texture selection:bg-brand-olive selection:text-white">
+<!-- BEGIN: Sticky Header -->
+<header class="sticky top-0 z-50 border-b border-brand-olive/10 sticky-header">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="font-semibold uppercase tracking-widest text-brand-olive text-4xl" data-purpose="logo">
+        Salma Khanom
+      </div>
+<nav class="hidden md:flex items-center font-medium tracking-widest uppercase text-lg font-bold space-x-16" data-purpose="main-navigation">
+<a class="hover:text-brand-olive transition-colors" href="#">Home</a>
+<a class="hover:text-brand-olive transition-colors" href="#">Our Menu</a>
+<a class="hover:text-brand-olive transition-colors" href="#">Contact Us</a>
+</nav>
+<div data-purpose="header-action">
+<button class="bg-brand-olive text-white px-8 py-2.5 rounded-full text-sm font-medium uppercase tracking-wider hover:bg-opacity-90 transition-all">
+          Order Now
+        </button>
+</div>
+</div>
+</header>
+<!-- END: Sticky Header -->
+<main>
+<!-- BEGIN: Hero Section -->
+<section class="max-w-7xl mx-auto px-6 pt-16 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-4" data-purpose="hero-content">
+<div class="arabic-text">بنقدم لكم اشهى دولما على الأطلاق</div>
+<h1 class="text-6xl md:text-7xl leading-[1.1] font-medium italic"><span class="text-brand-olive italic"><font color="#221f1f">بنقدملكم أشهى دولما على الأطلاق&nbsp;</font></span><div><span class="text-brand-olive italic">&nbsp;طبخاتنا كلها على الحطب&nbsp;</span></div><div><br></div></h1>
+<p class="text-lg text-brand-dark/70 max-w-lg leading-relaxed">خدمات ضيافة فاخرة وبوكسات ولائم عائلية مجهزة بكل حب&nbsp;</p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-brand-olive text-white px-8 py-4 rounded-full flex items-center gap-3 hover:bg-opacity-90 transition-all font-bold" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.185-.573c.948.517 2.011.788 3.145.788 3.18 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.73-5.767-5.73zm3.406 8.113c-.14.394-.713.719-1.103.772-.258.033-.594.06-1.123-.143a5.205 5.205 0 01-2.316-1.428c-.851-.83-1.408-1.801-1.57-2.07-.163-.269-.017-.414.118-.55.122-.122.269-.317.404-.475.133-.158.179-.269.269-.45.09-.179.045-.337-.023-.475-.067-.137-.582-1.405-.807-1.928-.219-.524-.465-.45-.63-.45h-.54c-.18 0-.475.067-.72.337-.245.269-.944.922-.944 2.247s.967 2.597 1.103 2.775c.137.18 1.905 2.895 4.613 4.061.644.277 1.148.442 1.541.567.648.204 1.237.175 1.701.106.517-.078 1.588-.648 1.813-1.272.225-.624.225-1.159.158-1.272-.068-.113-.248-.18-.517-.315z"></path></svg>
+            Order via WhatsApp
+          </button>
+<button class="border border-brand-olive text-brand-olive px-8 py-4 rounded-full flex items-center gap-3 hover:bg-brand-olive/5 transition-all font-bold" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-weight: 700;">
+            Explore Feast Boxes <span class="">→</span>
+</button>
+</div>
+<div class="flex gap-16 pt-8 border-t border-brand-olive/10 max-w-sm">
+<div>
+<div class="text-3xl font-medium">500+</div>
+<div class="text-[10px] uppercase tracking-widest text-brand-olive font-bold mt-1">Feasts Crafted</div>
+</div>
+<div class="border-l border-brand-olive/20 h-10 self-center"></div>
+<div>
+<div class="text-3xl font-medium">100%</div>
+<div class="text-[10px] uppercase tracking-widest text-brand-olive font-bold mt-1">Home-Style</div>
+</div>
+</div>
+</div>
+<div class="relative flex justify-center lg:justify-end" data-purpose="hero-image">
+<div class="w-full max-w-[500px] aspect-square rounded-full overflow-hidden border border-brand-olive/20 shadow-2xl">
+<img alt="Featured Feast" class="w-full h-full object-cover animate-float rounded-full" src="https://instagram.famm12-1.fna.fbcdn.net/v/t51.82787-15/566187077_18058232876539755_6225837285262214182_n.jpg?stp=dst-jpg_e35_p320x320_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzMzNjE0NzA4OTc1MzI4OTAxMg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyOTAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&amp;_nc_ohc=BHioCd94QQQQ7kNvwHM7ZHf&amp;_nc_oc=AdqOqPyZOJFqFMHFxhCwe8ATXUbOjDxpoLyi8Jo2l8MUfzi3TiaXuUaCcYLPDnldlOg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=instagram.famm12-1.fna&amp;_nc_gid=CctjmLKjgGSjI1x-5_bQTg&amp;_nc_ss=7a22e&amp;oh=00_Af6mDhaqOCOo-5iYClj_Huj8DxoaKdRJAoN1rZj9gn3tIw&amp;oe=6A204559">
+</div>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: Product Section -->
+<section class="max-w-7xl mx-auto px-6 py-24">
+<div class="text-center space-y-4 mb-20">
+<div class="arabic-text">استكشف بوكسات الولائم</div>
+<h2 class="text-5xl italic font-medium">Our Curated <span class="not-italic">Feast Boxes</span></h2>
+<p class="text-brand-dark/60 max-w-xl mx-auto leading-relaxed">يتم تحضير كل بوكس صباح يوم مناسبتك -حصص سخية ,مكونات فاخرة ونكهة مائدة عائلية&nbsp;</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Biryani Card -->
+<div class="bg-brand-cream/50 rounded-2xl overflow-hidden card-shadow group">
+<div class="aspect-square overflow-hidden">
+<img alt="The Royal Biryani Box" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0uiVzKjvYyXIVW7wO4INOsCSyaI0MFWDT9pXx3s0d4L_3R9T0Xusg-hvzuwLZTRRztGY7lPxoKl-nxpV96E_ZMnkgjLUKuBjn-0CdLHLplCFJ5KhH2pU4NwY4PuaOMj9ZJIKVIIDAA3BVqCaRh9h6Z_5F4HSIgl-BIaGjQ_BBsxuoSuqyXfEvKXxG1J4jEgS4fIdpjkrO4qA12aqCPytVVNPm83FnPTPgyQljREVSLlBVUHMoJHfiaLapg">
+</div>
+<div class="p-8 space-y-4">
+<h3 class="text-2xl font-medium">مندي</h3>
+
+<div class="flex justify-between items-end pt-4 border-t border-brand-olive/10">
+<span class="text-xl font-bold text-brand-olive">5JOD</span>
+<button class="text-[10px] uppercase tracking-[0.2em] font-bold border-b border-brand-dark pb-0.5 hover:text-brand-olive transition-colors">Order</button>
+</div>
+</div>
+</div>
+<!-- Savories Card -->
+<div class="bg-brand-cream/50 rounded-2xl overflow-hidden card-shadow group">
+<div class="aspect-square overflow-hidden">
+<img alt="Crispy Savories Box" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0uhr51LtM7FGsxIPJVbLRjH_PRm_DmKtAF_Q5CKxTspTrg7HcRmaC6zyEILeVDlkF4fG-yvpzxXoj4ZBcZVX3B4uuRJ21idnN0toO7nCwXamYEJGV9f24OmU1j0azbvF4sXTglV4xwMHwEGB-8bCAGtYzgrMlo7Kw7Ip3Zf8Ws4jjgc0NNDjdMmT9i4yXYg1jucOd2-Q58xyum45MRM2iO8RX-hDfodBBeoce7cLocZnCGC2EpdWtzjtLtI">
+</div>
+<div class="p-8 space-y-4">
+<h3 class="text-2xl font-medium">سمبوسك&nbsp;</h3>
+
+<div class="flex justify-between items-end pt-4 border-t border-brand-olive/10">
+<span class="text-xl font-bold text-brand-olive">3JOD</span>
+<button class="text-[10px] uppercase tracking-[0.2em] font-bold border-b border-brand-dark pb-0.5 hover:text-brand-olive transition-colors">Order</button>
+</div>
+</div>
+</div>
+<!-- Dolma Card -->
+<div class="bg-brand-cream/50 rounded-2xl overflow-hidden card-shadow group">
+<div class="aspect-square overflow-hidden">
+<img alt="Traditional Dolma Feast" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0uiNXBupfIrRsjmmiZwQ6RXYl2J-HGq3tqukivPKfZIWVgJ894t52VVDFvvEqK8-Lilw6r9VHXbbmi1vxc0HntTGfUUdRyYtB-qn3UDPR4FB77m4rUyBgpSfLMGodcW8OQFfMMPHJaaILl2Ca-F-marul_y5SU219ouLR6sMrMnaJi4dOPKRPoe0TaS0CcyruIYcYIpFEJxtKN_kukIVJP9YbMIWThepUYl0q6wOQTLH0cf7O11T_3MJZA">
+</div>
+<div class="p-8 space-y-4">
+<h3 class="text-2xl font-medium">دولما&nbsp; على اصولها&nbsp;</h3>
+
+<div class="flex justify-between items-end pt-4 border-t border-brand-olive/10">
+<span class="text-xl font-bold text-brand-olive">8 JOD</span>
+<button class="text-[10px] uppercase tracking-[0.2em] font-bold border-b border-brand-dark pb-0.5 hover:text-brand-olive transition-colors">Order</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Product Section -->
+<!-- BEGIN: Customization Section -->
+<section class="max-w-7xl mx-auto px-6 mb-32">
+<div class="bg-white/40 border border-brand-olive/10 rounded-3xl p-12 grid grid-cols-1 md:grid-cols-2 gap-16">
+<div class="space-y-6">
+<div class="text-[10px] uppercase tracking-[0.3em] font-bold text-brand-olive">Bespoke</div>
+<h2 class="text-4xl font-medium">Customize Your Box</h2>
+<p class="text-brand-dark/70 leading-relaxed">
+            Tell us your guest count and preferences — we'll build a tailored feast that suits your table.
+          </p>
+</div>
+<div class="space-y-8">
+<div data-purpose="guest-slider">
+<div class="flex justify-between text-[10px] uppercase font-bold tracking-widest mb-4">
+<span class="">Guests: 8</span>
+</div>
+<input class="w-full" max="50" min="2" type="range" value="8">
+</div>
+<div data-purpose="preference-selection">
+<div class="text-[10px] uppercase font-bold tracking-widest mb-4">Preference</div>
+<div class="flex flex-wrap gap-3">
+<button class="px-6 py-2 rounded-full border border-brand-olive/30 text-xs font-bold hover:bg-brand-olive/5 transition-colors">Vegetarian</button>
+<button class="px-6 py-2 rounded-full border border-brand-olive/30 text-xs font-bold hover:bg-brand-olive/5 transition-colors">Meat</button>
+<button class="px-6 py-2 rounded-full bg-brand-olive text-white text-xs font-bold">Mixed</button>
+<button class="px-6 py-2 rounded-full border border-brand-olive/30 text-xs font-bold hover:bg-brand-olive/5 transition-colors">Seafood</button>
+</div>
+</div>
+<button class="w-full bg-brand-dark text-white py-5 rounded-xl uppercase text-xs font-bold tracking-[0.3em] hover:bg-black transition-colors">
+            Request via WhatsApp
+          </button>
+</div>
+</div>
+</section>
+<!-- END: Customization Section -->
+<!-- BEGIN: Contact Section -->
+<section class="pb-32 px-6">
+<div class="max-w-2xl mx-auto bg-white rounded-[40px] p-16 text-center shadow-xl shadow-brand-olive/5 relative overflow-hidden">
+<h2 class="text-3xl font-light uppercase tracking-[0.4em] mb-12">Contact Us</h2>
+<div class="flex justify-center mb-12">
+<a href="https://wa.me/962792249666" target="_blank" class="group transition-transform duration-300 hover:scale-110 flex flex-col items-center">
+  <div class="w-16 h-16 border-2 border-brand-dark/20 rounded-xl flex items-center justify-center p-3 transition-colors duration-300 group-hover:border-[#25D366]/50">
+    <svg class="w-full h-full text-brand-dark/40 transition-colors duration-300 group-hover:text-[#25D366]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+      <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+      <circle cx="8" cy="10" r="2"></circle>
+      <line x1="14" x2="18" y1="9" y2="9"></line>
+      <line x1="14" x2="18" y1="12" y2="12"></line>
+      <line x1="14" x2="18" y1="15" y2="15"></line>
+    </svg>
+  </div>
+  <div class="mt-4 flex flex-col items-center animate-bounce"><span class="text-sm font-bold text-brand-olive arabic-text">اضرب هنا للاباء بالواب وااا</span>
+<div class="text-lg">↓</div></div>
+</a>
+</div>
+<a class="text-5xl md:text-7xl font-light tracking-widest hover:text-brand-olive transition-colors flex items-center justify-center gap-4" href="tel:0792249666"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuByPaqoHWjesowjvCP_UxqgAMeZ6gf_SURPyQgDfAChCiP8X5BdMVLr-r8Jc-ZjLYRGjo9MVudigTxAqzE3ikzByPa3mrWHnvPoZDY545R080rTBgI6caVchglSOshxs8xWjDU66ImW5Apn4rL4f15MHRLbbAB5zW9zJQfmD0YFYI_-cf-OuL3g0Q4eHy9oRhsusPiDKIOfpOtOYCbMbHMKqyOrWsKGXJq-xxUdnRgmWDauY8ZAKCmO6Ko5fdPTue3dLKDV_ah15m4" alt="WhatsApp" class="w-12 h-12 md:w-16 md:h-16 object-contain"> 0792249666</a>
+</div>
+</section>
+<!-- END: Contact Section -->
+</main>
+<!-- BEGIN: Footer -->
+<footer class="border-t border-brand-olive/20 py-8 px-6">
+<div class="max-w-7xl mx-auto flex flex-col md:row items-center justify-between gap-6 text-[10px] uppercase font-bold tracking-widest text-brand-dark/50"><a class="hover:scale-110 transition-transform" href="#"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTyoCSRLwWdRIy9j40JqRVnwxSl4VAfiOMkZVVe-hom6wJ9QCR1nA4tOrQfx2zHyzv0aNsdPyY03J0A4z4oaODrjxRC82rU2jXQoINAE-jrcEoCp1KN2F6RIqkMgcVB1eXwK7nd9zsTGGjMGT4aRzEjoQv94HEaI1fUi06lFBkl3ix8Yqli7Rs0_ZKCb4YBaEnpoyHMCkJHjEFBXyBjJk0La9E-NLNJwdmxprzITJX7qWwfMfpXJ9-fcxgprosErnGJDLk7HMBnaI" alt="Facebook" class="w-6 h-6 object-contain"></a><a class="hover:scale-110 transition-transform" href="#"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuByPaqoHWjesowjvCP_UxqgAMeZ6gf_SURPyQgDfAChCiP8X5BdMVLr-r8Jc-ZjLYRGjo9MVudigTxAqzE3ikzByPa3mrWHnvPoZDY545R080rTBgI6caVchglSOshxs8xWjDU66ImW5Apn4rL4f15MHRLbbAB5zW9zJQfmD0YFYI_-cf-OuL3g0Q4eHy9oRhsusPiDKIOfpOtOYCbMbHMKqyOrWsKGXJq-xxUdnRgmWDauY8ZAKCmO6Ko5fdPTue3dLKDV_ah15m4" alt="WhatsApp" class="w-6 h-6 object-contain"></a><a class="hover:scale-110 transition-transform" href="#"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMZVHeLxbgSB7ieBrqzeo0DdZ89F8hNpWsIo-01JuP71NmLDb4_zoE9uZR5Xzllx3SYxC-VluV9ImpaS5EPTFLcX0U5AGDmO0Kf7Ni138CWWAqECN0H9W4pZhixNTAwXaFbvH5Ws61BBxNh5z0BXFXidkNR6Qg5_lP9p-69xNreEO11G0XBAPN9-y3jcaopUW0UatBOmY0zQzNGIYGT56w_J8ap_go4uSwOOXCgOOtpIWWvzDuPGMjPSpW4Z6pNXD7Uo4Fib9FrbM" alt="Instagram" class="w-6 h-6 object-contain"></a></div>
+</footer>
+<!-- END: Footer -->
+
+
+
+
+
+
+
+
+</body></html>
